@@ -1,33 +1,22 @@
-import { useReducer } from 'react';
+import {useDispatch, useSelector} from 'react-redux'
+import { increment, decrement } from '../redux/counterSlice';
 import './CongTru.css';
 
-const initState = 0;
-
-const reducer = (state, action) => {
-    switch (action.type) {
-        case 'INCREMENT':
-            return state + 1;
-        case 'DECREMENT':
-            return state - 1;
-        default:
-            return state;
-    }
-};
-
 function CongTru() {
-    const [count, dispatch] = useReducer(reducer, initState);
-
+    
+    const count = useSelector(state => state.counter.value);
+    const dispatch = useDispatch();
     return (
         <div className="congtru-container">
             <button 
-                onClick={() => dispatch({ type: 'DECREMENT' })} 
+                onClick={() => dispatch(decrement())} 
                 className='btn-tru'
             >
                 -
             </button>
             <span>{count}</span>
             <button 
-                onClick={() => dispatch({ type: 'INCREMENT' })} 
+                onClick={() => dispatch(increment())} 
                 className='btn-cong'
             >
                 +
