@@ -1,10 +1,11 @@
 .congtru-container {
+    width: 100%;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    font-size: 30px;
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
 }
 
 button {
@@ -38,4 +39,8 @@ button {
 .count {
     min-width: 40px;
     text-align: center;
+}
+
+span{
+    padding: 0px 20px;
 }

@@ -1,5 +1,6 @@
 import {useDispatch, useSelector} from 'react-redux'
 import { increment, decrement } from '../redux/counterSlice';
+
 import './CongTru.css';
 
 function CongTru() {
