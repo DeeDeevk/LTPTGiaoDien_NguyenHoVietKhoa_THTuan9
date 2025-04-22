@@ -3,6 +3,8 @@ import {Routes, Route} from 'react-router-dom'
 import Sidebar from './components/Sidebar';
 import CongTru from './components/CongTru';
 import HomPage from './components/HomePage';
+import ToDoList from './components/ToDoList';
+import ToggleTheme from './components/ToggleTheme';
 import './App.css'
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Routes>
           <Route path='/' element= {<HomPage/>}/>
           <Route path='/congtru' element= {<CongTru/>}/>
+          <Route path='/todolist' element= {<ToDoList/>}/>
+          <Route path='/toggleTheme' element= {<ToggleTheme/>}/>
         </Routes>
       </div>
     </div>

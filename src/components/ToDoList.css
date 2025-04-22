@@ -1,0 +1,63 @@
+.toDoCon {
+    padding-top: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+li.done span {
+    text-decoration: line-through;
+    color: #aaa;
+    cursor: pointer;
+}
+
+li span {
+    cursor: pointer;
+    flex: 1;
+}
+
+li button {
+    background: red;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}

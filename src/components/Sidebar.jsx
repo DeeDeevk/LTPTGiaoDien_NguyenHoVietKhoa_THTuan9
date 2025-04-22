@@ -4,7 +4,7 @@ import MenuItem from './MenuItem';
 
 function Sidebar() {
     return ( 
-        <div>
+        <div className='sideCon'>
             <MenuItem 
             to="/" 
             label="Trang chu"
@@ -12,6 +12,14 @@ function Sidebar() {
             <MenuItem 
             to="/congtru" 
             label="Cong Tru"
+            />
+            <MenuItem 
+            to="/todolist" 
+            label="To-do list"
+            />
+            <MenuItem 
+            to="/toggleTheme" 
+            label="Toggle theme"
             />
         </div>
      );
