@@ -21,6 +21,10 @@ function Sidebar() {
             to="/toggleTheme" 
             label="Toggle theme"
             />
+            <MenuItem 
+            to="/shoppingCart" 
+            label="Shopping cart"
+            />
         </div>
      );
 }

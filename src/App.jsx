@@ -5,6 +5,7 @@ import CongTru from './components/CongTru';
 import HomPage from './components/HomePage';
 import ToDoList from './components/ToDoList';
 import ToggleTheme from './components/ToggleTheme';
+import ShoppingCart from './components/ShoppingCart';
 import './App.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/congtru' element= {<CongTru/>}/>
           <Route path='/todolist' element= {<ToDoList/>}/>
           <Route path='/toggleTheme' element= {<ToggleTheme/>}/>
+          <Route path='/shoppingCart' element= {<ShoppingCart/>}/>
         </Routes>
       </div>
     </div>
