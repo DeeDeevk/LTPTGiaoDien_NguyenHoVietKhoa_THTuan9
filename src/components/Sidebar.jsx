@@ -25,6 +25,10 @@ function Sidebar() {
             to="/shoppingCart" 
             label="Shopping cart"
             />
+            <MenuItem 
+            to="/toggleLogin" 
+            label="Toggle login"
+            />
         </div>
      );
 }

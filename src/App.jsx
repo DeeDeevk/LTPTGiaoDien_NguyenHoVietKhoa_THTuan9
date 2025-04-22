@@ -6,6 +6,7 @@ import HomPage from './components/HomePage';
 import ToDoList from './components/ToDoList';
 import ToggleTheme from './components/ToggleTheme';
 import ShoppingCart from './components/ShoppingCart';
+import ToggleLogin from './components/ToggleLogin';
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path='/todolist' element= {<ToDoList/>}/>
           <Route path='/toggleTheme' element= {<ToggleTheme/>}/>
           <Route path='/shoppingCart' element= {<ShoppingCart/>}/>
+          <Route path='/toggleLogin' element= {<ToggleLogin/>}/>
         </Routes>
       </div>
     </div>

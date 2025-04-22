@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Cart from "./Cart";
+import './ShoppingCart.css'
 
 const sampleProducts = [
   { id: 1, name: "Sản phẩm A", price: 100000 },
